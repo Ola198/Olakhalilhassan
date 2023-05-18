@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+    <style>
+       .star {
+            background-image: url(image/edgar-castrejon-1CsaVdwfIew-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 100%;
+            height: 500px;
+            background-attachment: fixed;
+           
+        }
+
+        .choose {
+            padding-right: 0;
+            padding-left: 970px;
+            padding-top: 200px;
+
+        }
+
+        .choose a {
+            padding-left: 40px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+
+        .header h2{
+            text-align: center;
+            margin-bottom:  5px;
+            padding: 40px 15px 10px;
+           font-size: 2rem;
+           font-weight: 400
+
+        }
+        .header p{ 
+            text-align: center;  
+            margin-bottom: 50px; 
+        }
+        .conta input,textarea{
+            margin-left: 200px;
+            padding-bottom: 5px;
+            border: none;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        #button{
+            background-color: red;
+            color: white;
+            margin-left: 430px;
+            margin-top: 20px;
+            padding: 10px 30px;
+        }
+        .container div{
+            display: inline-block;
+            vertical-align: top;
+
+        }
+        .refs a{
+            color:grey;
+            text-decoration:none;
+            margin: 10px 0px;
+        }
+        .info div{
+            display: block;
+        }
+        .info{
+            padding-left: 150px;
+        }
+        .info address{
+            margin: 30px 0px;
+        }
+        .info h1{
+            margin: 0px 0px 10px;
+            color: green;
+        }
+        .check{
+            
+            margin-bottom: 20px;
+            margin-right:410px;
+            width: auto;
+            border: 1px solid grey; 
+            margin-left: 360px;
+            padding: 10px;
+        }
+        .endy a{
+            
+            text-decoration: none;
+            color:grey;
+            
+        }
+        .endy{
+            color:gray;
+            text-align: center;
+            margin-top: 50px;
+        }
+        body{
+            margin: 0px;
+        }
+        p{
+            font-size: .5cm;
+           
+        }
+        label{
+            color: gray;
+        }
+
+        /* .checks{ 
+           
+        }*/
+        
+    </style>
+</head>
+
+<body>
+    <div class="star">
+        <div id="logo">
+            <img src="./image/images-removebg-preview (1).png" alt="">
+        </div>
+        <div class="choose">
+            <a href="./home.html">Home</a>
+            <a href="./about.html"> About</a>
+            <a href="./contact.html">Contact</a>
+            <hr style="width: 2cm; margin-inline-start: 220px;">
+           
+        </div>
+
+    </div>
+    <div class="header">
+        <h2>Contact Page</h2>
+         <p>This is our <b>contact Form</b>. Please fill it</p> 
+    </div>
+    <form action="mailto:detox-smothie@gmail.com" method="post">
+        <div class="container">
+            <div class="conta">
+                <input type="text" size="40px" placeholder="Name" required name="name"><br>
+                <input type="email" size="40px" placeholder="Email" required name="email"><br>
+                <textarea name="comment"  cols="40px" rows="5px" placeholder="Message"></textarea> <br>
+                <input type="submit" value="Send" id="button">
+            </div>
+            <div class="info">
+                <h1>Our Address</h1>
+                <address>Alhuda st,Gaza,Palestine</address>
+                <div class="refs">
+                    <a href="http://.www.whatsupp.com" >+972594372937</a>
+                </div>
+                <br>
+                <div class="refs">
+                    <a href="mailto:detox_smothie@gmail.com">ola_detox_smothie@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="header">
+        <h2>FAQs</h2>
+        <p>We invite you to give your personal opinion to OurStore, <br>
+            in order to raise quality and improve performance. <br></p>
+    </div>
+    <div class="checks">
+        <div class="check">
+            <label>1.Are all services available ?<input type="checkbox" style="margin-left: 300px;"></label>
+        </div>
+        <div class="check">
+            <label>2.Do you have any complaints about one of our employees?<input type="checkbox" style="margin-left: 100px;"></label>
+        </div>
+        <div class="check">
+            <label>3.Are you satisfied with this experience ?<input type="checkbox" style="margin-left: 217px;"></label>
+        </div>
+        <div class="check">
+            <label>4.Was everything done in a timely manner?<input type="checkbox" style="margin-left: 205px;"></label>
+        </div>
+
+    </div>
+
+    <div class="endy">
+        <p>
+            
+            <a href="./home.html">Copyright &copy; 2022 DETOX SMOTHIE STORE </a> 
+        </p>
+    </div>
+</body>
+
+</html>
